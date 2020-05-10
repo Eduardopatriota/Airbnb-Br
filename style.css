@@ -1,0 +1,23 @@
+body {
+	background-color: #f1f1f1;
+}
+
+.rooms {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item {
+	margin: 12px;
+	padding: 8px;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	background-color: #f0f0f0;
+	width: 100%;
+	max-width: 380px;
+	border-radius: 8px;
+	text-align: center;
+}
