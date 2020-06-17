@@ -22,7 +22,7 @@ fetch("https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72")
 			// Texto que vai ser inserido na div do quarto
 			var price = document.createElement("p");
 			// Inserir texto no elemento p
-			price.innerHTML = room.price;
+			price.innerHTML = `<b>R$ ${room.price},00 /noite </b>`;
 
 			var img = document.createElement("img");
 			img.src = room.photo;
@@ -30,7 +30,7 @@ fetch("https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72")
 			img.setAttribute("height", "228");
 
 			var tipo = document.createElement("p")
-			tipo.innerHTML = room.property_type;
+			tipo.innerHTML = `Tipo - ${room.property_type}` ;
 			
 
 
@@ -45,5 +45,8 @@ fetch("https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72")
 			rooms.appendChild(div);
 		});
 	});
+
+	
+
 
 

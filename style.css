@@ -1,5 +1,6 @@
 body {
 	background-color: #f1f1f1;
+	
 }
 
 .rooms {
@@ -20,4 +21,7 @@ body {
 	max-width: 380px;
 	border-radius: 8px;
 	text-align: center;
+	font-family: 'Roboto', sans-serif ;
+	font-weight: bold;
+	
 }
